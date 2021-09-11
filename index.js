@@ -28,7 +28,6 @@ user.on('message', message => {
 user.on('messageUpdate' , (m , message) => {
     if (!message.author.id === config.botid) return;
         message.embeds.forEach(e => {
-            console.log(e)
             try {
                 if ((e.description.split('<')[1].split('>')[0].split('@')[1]) === user.user.id) {
                     setTimeout(function() {
