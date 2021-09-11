@@ -1,5 +1,7 @@
 {
-    "token":"ODg1MTgwODM2NTcwMzUzNzI0.YTjU0w.8ei1_UvKpTtG0Uxsxlho-63npF8",
+    "token":"",
     "msg":"Hi , I won a giveaway?",
-    "botid":"294882584201003009"
+    "botid":"294882584201003009",
+    "react_timeout":3,
+    "dm_timeout":3
 }
